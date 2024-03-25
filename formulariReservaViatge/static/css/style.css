@@ -1,0 +1,65 @@
+body{
+    background-color: aqua;
+    margin-top: -90px;
+    padding: 10%;
+    position:static;
+}
+.titulo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1{   
+    font-family:'Copperplate Copperplate Gothic Light,fantasy';
+    font-size: 300%;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+
+p{
+    margin-bottom: 3%;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    margin-top: -3%;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+}
+
+.information{
+    background-color: rgb(155, 251, 251);
+    border: 0cap;
+    width: 400px;
+}
+.needs{
+    background-color: rgb(155, 251, 251);
+    border: 0cap;
+    width: 400px;
+    height: 50px;
+}
+
+.formulario{
+    margin-top: 50px;
+}
+
+.personalInformation{
+    font-size: 20px;
+}
+
+.enviar{
+    background-color: rgb(155, 251, 251);
+    border: solid,5px;
+    border-radius: 6px;
+    border-color:rgb(4, 94, 94);
+    font-family: Copperplate Copperplate Gothic Light,fantasy;
+    color: rgb(4, 94, 94) ;
+    width: 90px;
+    height: 40px;
+}

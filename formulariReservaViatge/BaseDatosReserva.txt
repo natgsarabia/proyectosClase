@@ -1,0 +1,34 @@
+
+Reserva:
+Nombre:Natalia
+Dirección: C/Mare de Deu de Nuria
+Teléfono: 639046255
+Email: natgsarabia@gmail.com
+Destino: Paris
+Fecha entrada: 12-03-2024
+Fecha salida: 20-03-2024
+Necesidades especiales: habitacion apta para perros
+--------------------------------------------------------
+
+Reserva:
+Nombre:Maria Jesus 
+Dirección: C/Valencia
+Teléfono: 646434435
+Email: Ysalom48@gmail.com
+Destino: Bruselas
+Fecha entrada: 30-02-2024
+Fecha salida: 02-03-2024
+Necesidades especiales: habitaci
+--------------------------------------------------------
+
+Reserva:
+Nombre:Pablo Ibañez
+Dirección: C/Comerç
+Teléfono: 626870174
+Email: pablo.bcn.92@gmail.com
+Destino: Paris
+Fecha entrada: 15-05-2024
+Fecha salida: 20-05-2024
+Necesidades especiales: vistas a monumentos
+--------------------------------------------------------
+

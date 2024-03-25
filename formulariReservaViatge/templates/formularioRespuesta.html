@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva hotel</title>
+    <link href="{{url_for('static', filename='css/style.css') }}" rel="stylesheet" />
+</head>
+<body>
+    <div class="titulo">
+        <span>
+            <img src="/static/image/logo.png" alt="Travel">
+        </span>
+        <span>
+            <h1>     
+                ESCAPATE BCN 
+            </h1>
+        </span>
+    </div>
+
+ 
+    <div class="answerd">
+        <h2>CONFIRMACIÓN DE TU RESERVA</h2>
+        <p>Estimado cliente {{name}},<br>
+        gracias por reservar su viaje a {{destination}} con nuestra agencia.<br>
+        Le esperamos el {{startDate}} y seguro que pasarás unos días divertidos con nosotros que te servirán para desconectar y volver con las pilas recargadas.</p>
+        <p>Hemos tomado nota de tus necesidades especiales:<br>
+        <h3>{{extraInformation}}</h3></p>
+        <p>que esperamos poder satisfacer.</p>
+        <p>¡¡Nos vemos pronto!!</p>
+        <p>Jaime,<br> Director Comercial</p>
+    </div>
+
+
+</body>
+</html>

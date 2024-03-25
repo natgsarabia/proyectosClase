@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva hotel</title>
+    <link href="{{url_for('static', filename='css/style.css') }}" rel="stylesheet" />
+</head>
+<body>
+    <div class="titulo">
+        <span>
+            <img src="/static/image/logo.png" alt="Travel">
+        </span>
+        <span>
+            <h1>     
+                ESCAPATE BCN 
+            </h1>
+        </span>
+    </div>
+    
+    <div class="formulario">
+        <form method="post" action="">
+            <p>DATOS PERSONALES</p>
+            <div class="personalInformation">
+                NOMBRE:
+                <input class= "information" type="text" name="name">
+                <br>
+                DIRECCIÓN:
+                <input class= "information" type="text" name="direction">
+                <br>
+                TELÉFONO:
+                <input class= "information" type="text" name="telephone">
+                <br>
+                EMAIL:
+                <input class= "information" type="text" name="email">
+                <br>      
+            </div>
+            <p>ESCOGE UN DESTINO</p>
+            <div>
+                DESTINO:
+                <input class= "information" type="text" name="destination">
+            </div>
+            <p>ESCOGE UNA FECHA</p>
+            <div>
+                FECHA ENTRADA:
+                <input class= "information" type="text" name="startDate">
+                <br>
+                FECHA SALIDA:
+                <input class= "information" type="text" name="endDate">
+            </div>
+            <p>NECESIDADES ESPECIALES
+                <h4>Especifique aquí si precisa de alguna necesidad especial como alergias alimenticias, camas dobles, accesos para movilidad reducida...</h3>
+            </p>
+            <div>      
+                NECESIDADES EXTRAS:
+                <input class= "needs" type="text" name="extraInformation">
+            </div>
+            <input class="enviar" type="submit" value="Enviar datos">
+        </form>
+    </div>
+
+</body>
+</html>

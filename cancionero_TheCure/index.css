@@ -1,0 +1,65 @@
+body{
+    background-image: url("fondo.jpg");
+    background-size: cover;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin-top: 3%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 250%;
+    background: linear-gradient(rgb(56, 18, 18),red);
+    -webkit-background-clip: text;
+    color: transparent; 
+    -webkit-text-stroke: 1px beige;
+}
+
+table{
+    background-color:rgba(124, 3, 3, 0.7) ;
+    border: solid 9px beige;
+    border-radius: 3%;
+    line-height: 130%;
+    border-spacing: 0;
+    
+}
+
+th{
+    background-color:rgb(245, 245, 220) ;
+    border: solid 4px beige;  
+    border-spacing: 0;
+    color:rgb(141, 4, 4);
+}
+
+td{
+    width:20%;
+    height: 30px;
+    border: solid 1px beige;
+    border-spacing: 0;
+    text-align: center;
+    color:rgb(160, 160, 154);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.track{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;  
+    font-size: 120%;
+    
+}
+
+:link{
+    font-weight: 400;
+    color:rgb(160, 160, 154) ;
+}
+
+:visited{
+    font-weight: 600;
+    color:rgb(238, 128, 128) ;
+}
